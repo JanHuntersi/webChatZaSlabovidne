@@ -1,8 +1,8 @@
 # webChatZaSlabovidne
 <h1> Web Chat za slepe in slabovidne </h1>
 <p>V okviru projekta za predmet ORS sem za svojo skupino ustvaril spletno stran, ki je omogočala pošiljanje sporočil med uporabniki, na skupnem web-chatu.</p>
-<p>Spletna stran je bila optimizirana za slepe in slabovidne -> izbira tem za barvno slepe in možnostnavigacije po spletni strani s uporabo tipkovnice.</p>
-<p>Spletna stran je bila "hostana" preko Microsoft Azure platforme z lastno domeno.</p>
+<p>Spletna stran je bila optimizirana za slepe in slabovidne -> izbira tem za barvno slepe in možnost navigacije po spletni strani s uporabo tipkovnice.</p>
+<p>Spletna stran je bila "hostana" preko Microsoft Azure platforme z lastno domeno. Uporabnikom je omogočala registriranje računa in prijavo, vsa sporočila in računi so bili shranjeni na Firebase-u</p>
 <p>Tehnologije in orodja uporabljene pri izdelavi spletne strani:,</p>
   <ul>
 <li><b>Flask - python</b> -> microframework, skrbelo za backend</li>
