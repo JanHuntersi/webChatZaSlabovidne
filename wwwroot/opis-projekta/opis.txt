@@ -1,0 +1,48 @@
+//Začetek projekta 22.10.2020 : 12:33
+
+//Namen:
+//Zgraditi neke vrrste portal z podatkovno bazo,kamor bodo uporabniki (sošolci), lahko 
+//pregledovali in oddajali razlićne datoteke itd (kot neke vrste cloud?) 
+
+//Hosting : azure  --> ritunisquad.azurewebsites.net
+
+//     -----sources---
+    // ustvarjanje simple flask application in deploy na azure:
+    // https://docs.microsoft.com/sl-si/azure/app-service/quickstart-python?tabs=cmd&pivots=python-framework-flaskˇ
+
+    //Google authentication:
+   //https://realpython.com/flask-google-login/#web-application-endpoints
+
+//https://github.com/Hemkesh/python-firebase-flask-login/blob/master/readme.md
+
+//firebase
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCTO7a4t_Jf4sN-ngRArL76PB8dVdSikyk",
+    authDomain: "ritunisquad.firebaseapp.com",
+    databaseURL: "https://ritunisquad.firebaseio.com",
+    projectId: "ritunisquad",
+    storageBucket: "ritunisquad.appspot.com",
+    messagingSenderId: "504972791037",
+    appId: "1:504972791037:web:58718efb815842ced38294",
+    measurementId: "G-LF5QWP2Z9H"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+//Cilji
+ 
+ - Google Authentication
+ - 
